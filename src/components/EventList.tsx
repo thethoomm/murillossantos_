@@ -44,6 +44,7 @@ export function EventList({ event }: Props) {
               <h2 className="text-xs uppercase font-thin text-zinc-50">{event.type}</h2>
               <h2 className="text-lg font-bold text-zinc-50">{event.name.toUpperCase()}</h2>
               <h2 className="text-xs font-medium text-zinc-50">Entregas: {event.totalProjects}</h2>
+              <h2 className="text-xs font-medium text-zinc-50">Disponíveis: {event.projects.filter((project) => project.content).length}</h2>
             </div>
           </div>
         </div>
