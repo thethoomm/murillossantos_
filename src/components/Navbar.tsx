@@ -57,7 +57,7 @@ export function Navbar() {
           className={`${menuOpen ? 'flex flex-col justify-center bg-slate-900 p-4 rounded-b-lg w-11/12 space-y-2 fixed top-14' : 'hidden'
             } text-zinc-50 font-medium md:flex md:flex-row md:justify-around md:w-full md:items-center`}
         >
-          <li className='nav-item'>
+          <li className='nav-item text-center grow'>
             <Link
               activeClass='active'
               to='about'
@@ -73,7 +73,7 @@ export function Navbar() {
               Sobre mim
             </Link>
           </li>
-          <li className='nav-item'>
+          <li className='nav-item text-center grow '>
             <Link
               activeClass='active'
               to='projects'

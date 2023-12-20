@@ -1,4 +1,4 @@
-import { Initial, AboutMe, Portifolio, ContactMe } from "./screens"
+import { Initial, AboutMe, Portifolio, Footer } from "./screens"
 import { Navbar } from "./components/Navbar"
 import { WhatsappContact } from "./components/WhatsappContact"
 
@@ -10,7 +10,7 @@ function App() {
       <Initial />
       <AboutMe />
       <Portifolio />
-      <ContactMe />
+      <Footer />
 
       <WhatsappContact />
     </div>

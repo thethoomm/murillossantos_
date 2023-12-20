@@ -51,7 +51,7 @@ export function EventList({ event }: Props) {
 
         {
           !generalOpen ? (
-            <div className="px-4 py-3 border-2 border-slate-900 rounded-xl rounded-t-none border-t-0">
+            <div className="px-4 py-3 border-2 border-slate-900 rounded-xl rounded-t-none border-t-0 space-y-2">
 
               {aftermovieOpen && (
                 <>
