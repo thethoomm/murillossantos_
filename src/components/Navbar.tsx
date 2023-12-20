@@ -89,7 +89,7 @@ export function Navbar() {
               Projetos
             </Link>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link
               activeClass='active'
               to='contato'
@@ -103,7 +103,7 @@ export function Navbar() {
               {menuOpen && <Phone width={32} className='mr-2 text-zinc-50' />}
               Contato
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

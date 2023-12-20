@@ -6,7 +6,7 @@ import { EventList } from '../components/EventList';
 
 export function Portifolio() {
   return (
-    <div className='bg-slate-950 px-4 sm:px-8 md:px-16 lg:px-24 flex flex-col justify-center items-center'>
+    <div id='projects' className='bg-slate-950 px-4 sm:px-8 md:px-16 lg:px-24 flex flex-col justify-center items-center'>
 
       <div className='flex flex-col w-full items-center justify-center'>
         <h1 className='text-zinc-50 font-semibold text-2xl mt-12 mb-8 text-center'>Habilidades</h1>

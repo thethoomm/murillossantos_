@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 
 export function Initial() {
   return (
-    <div className="bg-slate-950 h-screen flex-col space-y-4 justify-center items-center text-center flex">
+    <div id='initial' className="bg-slate-950 h-screen flex-col space-y-4 justify-center items-center text-center flex">
       <div className='space-y-3'>
         <Fade duration={1500}>
           <h4 className='text-zinc-50 initial-title tracking-widest'>Editor | Fotógrafo</h4>

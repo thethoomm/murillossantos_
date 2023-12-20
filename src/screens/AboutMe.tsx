@@ -18,7 +18,7 @@ export function AboutMe() {
   }, []);
 
   return (
-    <div className="min-h-screen max-h-screen flex">
+    <div id="about" className="min-h-screen max-h-screen flex">
       <div className="max-w-2xl p-8 bg-violet-700">
         <h1 className="text-3xl text-zinc-50 font-bold mb-4">Sobre Mim</h1>
         <Slide direction="left" delay={0}>
