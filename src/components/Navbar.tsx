@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import { Menu, Info, FolderOpen, Phone } from 'lucide-react';
+import { Menu, Info, FolderOpen } from 'lucide-react';
 import icon from '/murillo.icon.svg';
 
 export function Navbar() {
