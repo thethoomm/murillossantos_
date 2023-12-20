@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+.initial-title {
+  font-family: 'Krona One', sans-serif;
+}
+
+.barcode-font {
+  font-family: 'Libre Barcode 39', sans-serif;                                               
+}
+
+.dmsans-font {
+  font-family: 'DM Sans', sans-serif;
+}
